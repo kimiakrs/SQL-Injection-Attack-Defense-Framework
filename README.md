@@ -12,6 +12,7 @@ The objective was to simulate real-world SQL injection attacks on both versions,
 All source code is organized into dedicated directories:
 
 [Non_Secure_Portal](./NonSecure-Sportal/)
+
 [Secure_Portal](./Secure-Sportal/)
 
 ---
@@ -22,14 +23,14 @@ All source code is organized into dedicated directories:
 - [Repository Structure](#repository-structure)
 - [Technologies Used](#technologies-used)
 - [How to Run the Project](#how-to-run-the-project)
-- [SQL Injection Test Cases](#SQL-injection-test-cases)
+- [SQL Injection Test Cases](#sql-injection-test-cases)
 - [Security Comparison](#security-comparison)
 - [Disclaimer](#disclaimer)
 - [License](#license)
 
 ---
 
-## Project  Overview
+## Project Overview
 
 The project focuses on:
 
@@ -58,7 +59,7 @@ The project focuses on:
 ## Repository Structure
 
 All codes are published in separate directories:
-
+```
 ├── Secure-Sportal//
 │   ├── config/ 
 |   |  |     |── config.php
@@ -71,7 +72,7 @@ All codes are published in separate directories:
 │   ├── home.php
 │   ├── view_student.php
 │   └── ...
-
+```
 ### Secure Directory
 
 Implements:
@@ -150,9 +151,9 @@ cd your-repository-folder
 
 3. Prepare the virtual base like web hosting to implement your website 
 
-4. Create Databse based on determined database name in the source code 
+4. Create Database based on appropriate name in the source code 
 
-5. Configure database  web hosting and config files
+5. Configure database web hosting and config files
 
 6. Run Appliction
 
@@ -160,16 +161,17 @@ cd your-repository-folder
 
 ## SQL Injection Test Cases
 
-```Non-Secure Test Scenarios
+* Test Scenarios for Non-Secure Portal
+  
 | Test ID     | Attack Type                |
 | ----------- | -------------------------- |
 | TC_SQLI_001 | SQL Injection Based on 1=1 is Always True          |
 | TC_SQLI_002 | SQL Injection Based on ""="" is Always True     |
 | TC_SQLI_003 | SQL Injection Based on Batched SQL Statements            |
 
-```
 
-```Secure Test Scenarios
+* Test Scenarios for Secure Portal
+
 | Test ID     | Attack Type                |
 | ----------- | -------------------------- |
 | TC_SQLI_001 | Comment Injection          |
@@ -182,7 +184,6 @@ cd your-repository-folder
 | TC_SQLI_008 | URL Parameter Injection    |
 | TC_SQLI_009 | Stored Procedure Injection |
 | TC_SQLI_010 | Time-Based Blind Injection |
-```
 
 
 ---
@@ -217,7 +218,6 @@ cd your-repository-folder
 
 * No unauthorized data exposure
 
----
 ---
 
 ## Disclaimer
