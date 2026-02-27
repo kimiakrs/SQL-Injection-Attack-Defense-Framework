@@ -9,6 +9,16 @@ We implemented two separate versions of a Student Portal system:
 
 The objective was to simulate real-world SQL injection attacks on both versions, evaluate system behavior, and demonstrate how secure coding practices prevent exploitation.
 
+[![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?logo=php&logoColor=white)](https://www.php.net/)
+[![MariaDB](https://img.shields.io/badge/Database-MariaDB-003545?logo=mariadb&logoColor=white)](https://mariadb.org/)
+[![Apache](https://img.shields.io/badge/Server-Apache-D22128?logo=apache&logoColor=white)](https://httpd.apache.org/)
+[![Bootstrap](https://img.shields.io/badge/Frontend-Bootstrap-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![SQL Injection](https://img.shields.io/badge/Security-SQL%20Injection%20Testing-red)](https://owasp.org/www-community/attacks/SQL_Injection)
+[![OWASP Top 10](https://img.shields.io/badge/OWASP-Top%2010-darkred)](https://owasp.org/www-project-top-ten/)
+[![Status](https://img.shields.io/badge/Status-Academic%20Project-blue)](https://www.ue-germany.com/)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](#)
+
+
 All source code is organized into dedicated directories:
 
 [Non_Secure_Portal](./NonSecure-Sportal/)
